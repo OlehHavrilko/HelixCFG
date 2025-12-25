@@ -1,6 +1,61 @@
 {
   "presets": {
     "version": "1.0.0",
-    "defaults": []
+    "items": [
+      {
+        "id": "gaming-budget",
+        "name": "Gaming Budget",
+        "description": "Affordable gaming build",
+        "build": {
+          "cpu": "cpu-2",
+          "gpu": "gpu-1",
+          "motherboard": "mb-1",
+          "cooler": "cooler-1",
+          "case": "case-1",
+          "psu": "psu-2",
+          "ram": ["ram-1"],
+          "storage": ["storage-3"],
+          "meta": {
+            "target": "gaming"
+          }
+        }
+      },
+      {
+        "id": "gaming-mid",
+        "name": "Gaming Mid-Range",
+        "description": "Balanced gaming performance",
+        "build": {
+          "cpu": "cpu-1",
+          "gpu": "gpu-2",
+          "motherboard": "mb-1",
+          "cooler": "cooler-1",
+          "case": "case-1",
+          "psu": "psu-1",
+          "ram": ["ram-2"],
+          "storage": ["storage-1"],
+          "meta": {
+            "target": "gaming"
+          }
+        }
+      },
+      {
+        "id": "workstation-starter",
+        "name": "Workstation Starter",
+        "description": "Basic workstation setup",
+        "build": {
+          "cpu": "cpu-3",
+          "gpu": "gpu-1",
+          "motherboard": "mb-2",
+          "cooler": "cooler-2",
+          "case": "case-2",
+          "psu": "psu-1",
+          "ram": ["ram-2", "ram-2"],
+          "storage": ["storage-1", "storage-2"],
+          "meta": {
+            "target": "work"
+          }
+        }
+      }
+    ]
   }
 }

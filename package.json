@@ -1,0 +1,43 @@
+{
+  "name": "helixcfg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.120.4",
+    "@react-three/fiber": "^8.17.10",
+    "@tailwindcss/postcss": "^4.1.18",
+    "react": "^18",
+    "react-dom": "^18",
+    "three": "^0.172.0",
+    "zod": "^4.2.1",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^25.0.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/three": "^0.172.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitest/ui": "^4.0.16",
+    "autoprefixer": "^10.4.23",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "jsdom": "^27.3.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.7.4",
+    "tailwindcss": "^4.1.18",
+    "vite": "^5.4.1",
+    "vitest": "^4.0.16"
+  }
+}

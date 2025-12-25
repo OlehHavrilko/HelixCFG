@@ -1,6 +1,311 @@
 {
   "catalog": {
     "version": "1.0.0",
-    "items": []
+    "items": [
+      {
+        "id": "cpu-1",
+        "type": "CPU",
+        "brand": "Intel",
+        "model": "Core i5-12600K",
+        "specs": {
+          "type": "CPU",
+          "socket": "LGA1700",
+          "cores": 10,
+          "threads": 16,
+          "baseClock": 3.7,
+          "boostClock": 4.9,
+          "tdpW": 125
+        },
+        "tags": ["gaming", "mid-range"]
+      },
+      {
+        "id": "cpu-2",
+        "type": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7600X",
+        "specs": {
+          "type": "CPU",
+          "socket": "AM5",
+          "cores": 6,
+          "threads": 12,
+          "baseClock": 4.7,
+          "boostClock": 5.3,
+          "tdpW": 105
+        },
+        "tags": ["gaming", "budget"]
+      },
+      {
+        "id": "cpu-3",
+        "type": "CPU",
+        "brand": "Intel",
+        "model": "Core i9-13900K",
+        "specs": {
+          "type": "CPU",
+          "socket": "LGA1700",
+          "cores": 24,
+          "threads": 32,
+          "baseClock": 3.0,
+          "boostClock": 5.8,
+          "tdpW": 125
+        },
+        "tags": ["high-end", "workstation"]
+      },
+      {
+        "id": "gpu-1",
+        "type": "GPU",
+        "brand": "NVIDIA",
+        "model": "RTX 4060",
+        "specs": {
+          "type": "GPU",
+          "vramGB": 8,
+          "interface": "PCIe 4.0 x8",
+          "lengthMm": 240,
+          "widthMm": 120,
+          "heightMm": 40,
+          "tdpW": 115
+        },
+        "dimensions": {
+          "lengthMm": 240,
+          "widthMm": 120,
+          "heightMm": 40
+        },
+        "tags": ["entry-level", "gaming"]
+      },
+      {
+        "id": "gpu-2",
+        "type": "GPU",
+        "brand": "NVIDIA",
+        "model": "RTX 4070",
+        "specs": {
+          "type": "GPU",
+          "vramGB": 12,
+          "interface": "PCIe 4.0 x16",
+          "lengthMm": 240,
+          "widthMm": 120,
+          "heightMm": 40,
+          "tdpW": 200
+        },
+        "dimensions": {
+          "lengthMm": 240,
+          "widthMm": 120,
+          "heightMm": 40
+        },
+        "tags": ["mid-range", "gaming"]
+      },
+      {
+        "id": "gpu-3",
+        "type": "GPU",
+        "brand": "AMD",
+        "model": "RX 7800 XT",
+        "specs": {
+          "type": "GPU",
+          "vramGB": 16,
+          "interface": "PCIe 4.0 x16",
+          "lengthMm": 267,
+          "widthMm": 120,
+          "heightMm": 40,
+          "tdpW": 263
+        },
+        "dimensions": {
+          "lengthMm": 267,
+          "widthMm": 120,
+          "heightMm": 40
+        },
+        "tags": ["high-end", "gaming"]
+      },
+      {
+        "id": "mb-1",
+        "type": "Motherboard",
+        "brand": "ASUS",
+        "model": "TUF Gaming B660M-PLUS",
+        "specs": {
+          "type": "Motherboard",
+          "socket": "LGA1700",
+          "formFactor": "Micro-ATX",
+          "ramSlots": 4,
+          "ramType": "DDR4",
+          "maxRamGB": 128,
+          "chipset": "B660",
+          "pcieSlots": 2
+        },
+        "tags": ["budget", "gaming"]
+      },
+      {
+        "id": "mb-2",
+        "type": "Motherboard",
+        "brand": "MSI",
+        "model": "MAG B550 Tomahawk",
+        "specs": {
+          "type": "Motherboard",
+          "socket": "AM4",
+          "formFactor": "ATX",
+          "ramSlots": 4,
+          "ramType": "DDR4",
+          "maxRamGB": 128,
+          "chipset": "B550",
+          "pcieSlots": 3
+        },
+        "tags": ["mid-range", "workstation"]
+      },
+      {
+        "id": "ram-1",
+        "type": "RAM",
+        "brand": "Corsair",
+        "model": "Vengeance LPX 16GB",
+        "specs": {
+          "type": "RAM",
+          "ramType": "DDR4",
+          "speed": 3200,
+          "capacityGB": 16,
+          "sticks": 1
+        },
+        "tags": ["budget", "gaming"]
+      },
+      {
+        "id": "ram-2",
+        "type": "RAM",
+        "brand": "G.Skill",
+        "model": "Trident Z RGB 32GB",
+        "specs": {
+          "type": "RAM",
+          "ramType": "DDR4",
+          "speed": 3600,
+          "capacityGB": 32,
+          "sticks": 1
+        },
+        "tags": ["high-end", "gaming"]
+      },
+      {
+        "id": "ram-3",
+        "type": "RAM",
+        "brand": "Kingston",
+        "model": "Fury Beast 8GB",
+        "specs": {
+          "type": "RAM",
+          "ramType": "DDR4",
+          "speed": 2666,
+          "capacityGB": 8,
+          "sticks": 1
+        },
+        "tags": ["entry-level", "work"]
+      },
+      {
+        "id": "storage-1",
+        "type": "Storage",
+        "brand": "Samsung",
+        "model": "970 EVO Plus 500GB",
+        "specs": {
+          "type": "Storage",
+          "storageType": "SSD",
+          "capacityGB": 500,
+          "interface": "NVMe"
+        },
+        "tags": ["ssd", "fast"]
+      },
+      {
+        "id": "storage-2",
+        "type": "Storage",
+        "brand": "Western Digital",
+        "model": "Blue 1TB",
+        "specs": {
+          "type": "Storage",
+          "storageType": "HDD",
+          "capacityGB": 1000,
+          "interface": "SATA"
+        },
+        "tags": ["hdd", "capacity"]
+      },
+      {
+        "id": "storage-3",
+        "type": "Storage",
+        "brand": "Crucial",
+        "model": "MX500 250GB",
+        "specs": {
+          "type": "Storage",
+          "storageType": "SSD",
+          "capacityGB": 250,
+          "interface": "SATA"
+        },
+        "tags": ["ssd", "budget"]
+      },
+      {
+        "id": "cooler-1",
+        "type": "Cooler",
+        "brand": "Noctua",
+        "model": "NH-U12S",
+        "specs": {
+          "type": "Cooler",
+          "coolerType": "air",
+          "socketCompatibility": ["LGA1700", "AM4", "AM5"],
+          "tdpW": 150
+        },
+        "tags": ["air", "quiet"]
+      },
+      {
+        "id": "cooler-2",
+        "type": "Cooler",
+        "brand": "Corsair",
+        "model": "H100i Elite Capellix",
+        "specs": {
+          "type": "Cooler",
+          "coolerType": "liquid",
+          "socketCompatibility": ["LGA1700", "AM4", "AM5"],
+          "tdpW": 250
+        },
+        "tags": ["liquid", "high-end"]
+      },
+      {
+        "id": "case-1",
+        "type": "Case",
+        "brand": "Fractal Design",
+        "model": "Meshify C",
+        "specs": {
+          "type": "Case",
+          "formFactorCompatibility": ["ATX", "Micro-ATX"],
+          "maxGpuLengthMm": 315,
+          "maxCpuCoolerHeightMm": 165
+        },
+        "tags": ["mid-tower", "airflow"]
+      },
+      {
+        "id": "case-2",
+        "type": "Case",
+        "brand": "Cooler Master",
+        "model": "MasterBox NR600",
+        "specs": {
+          "type": "Case",
+          "formFactorCompatibility": ["ATX", "Micro-ATX", "Mini-ITX"],
+          "maxGpuLengthMm": 370,
+          "maxCpuCoolerHeightMm": 190
+        },
+        "tags": ["full-tower", "premium"]
+      },
+      {
+        "id": "psu-1",
+        "type": "PSU",
+        "brand": "Corsair",
+        "model": "RM650x",
+        "specs": {
+          "type": "PSU",
+          "wattage": 650,
+          "efficiency": "80+ Gold",
+          "modular": true
+        },
+        "tags": ["modular", "reliable"]
+      },
+      {
+        "id": "psu-2",
+        "type": "PSU",
+        "brand": "EVGA",
+        "model": "BR 500W",
+        "specs": {
+          "type": "PSU",
+          "wattage": 500,
+          "efficiency": "80+ Bronze",
+          "modular": false
+        },
+        "tags": ["budget", "basic"]
+      }
+    ]
   }
 }

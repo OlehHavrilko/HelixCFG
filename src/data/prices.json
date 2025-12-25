@@ -1,6 +1,147 @@
 {
   "prices": {
     "version": "1.0.0",
-    "currencies": {}
+    "items": [
+      {
+        "componentId": "cpu-1",
+        "value": 300,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "cpu-2",
+        "value": 250,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "cpu-3",
+        "value": 600,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "gpu-1",
+        "value": 300,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "gpu-2",
+        "value": 550,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "gpu-3",
+        "value": 500,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "mb-1",
+        "value": 150,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "mb-2",
+        "value": 180,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "ram-1",
+        "value": 60,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "ram-2",
+        "value": 120,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "ram-3",
+        "value": 40,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "storage-1",
+        "value": 70,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "storage-2",
+        "value": 50,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "storage-3",
+        "value": 35,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "cooler-1",
+        "value": 70,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "cooler-2",
+        "value": 150,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "case-1",
+        "value": 100,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "case-2",
+        "value": 150,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "psu-1",
+        "value": 120,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "componentId": "psu-2",
+        "value": 50,
+        "currency": "USD",
+        "source": "average",
+        "updatedAt": "2024-01-01T00:00:00Z"
+      }
+    ]
   }
 }
