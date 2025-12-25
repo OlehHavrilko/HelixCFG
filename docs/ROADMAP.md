@@ -1,19 +1,56 @@
-# Roadmap
+# ROADMAP
+## План развития HelixCFG
 
-## Overview
-This document outlines the development roadmap for HelixCFG.
+---
 
-## Phase 1: Foundation
-- [ ] Set up project structure
-- [ ] Implement core domain model
-- [ ] Create basic UI components
+## Этап 0 — Foundation
+- структура проекта
+- каталог и цены
+- базовый BuildReport
 
-## Phase 2: Features
-- [ ] Add 3D visualization
-- [ ] Implement data persistence
-- [ ] Add advanced features
+---
 
-## Phase 3: Polish
-- [ ] Performance optimization
-- [ ] Testing and QA
-- [ ] Documentation
+## Этап 1 — MVP Configurator
+- UI конфигуратора
+- расчет стоимости
+- жёсткая совместимость
+- объяснимые ошибки
+
+---
+
+## Этап 2 — Balance & Recommendations
+- bottleneck-анализ
+- рекомендации
+- сценарии сборок
+
+---
+
+## Этап 3 — 3D MVP
+- корпус и слоты
+- установка компонентов
+- визуальные конфликты
+
+---
+
+## Этап 4 — UX & Scale
+- фильтры
+- поиск
+- масштаб каталога
+
+---
+
+## Этап 5 — E-commerce Ready
+- интерфейсы цен
+- SKU-заглушки
+- корзина без оплаты
+
+---
+
+## Definition of Done (MVP)
+
+- все ошибки объяснимы
+- все предупреждения полезны
+- рекомендации присутствуют
+- BuildReport — единый источник истины
+
+---
