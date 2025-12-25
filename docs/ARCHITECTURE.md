@@ -1,25 +1,22 @@
-# Architecture
+# ARCHITECTURE
+## Архитектура HelixCFG и взаимодействие модулей
 
-## Overview
-This document describes the architecture of HelixCFG.
+---
 
-## Components
+## Цель архитектуры
 
-### Domain Layer
-- Model: Core data structures and entities
-- Engines: Business logic and processing engines
-- Services: Domain services and operations
+Архитектура HelixCFG построена вокруг идеи **разделения ответственности** между:
+- доменной логикой (что правильно и почему),
+- пользовательским интерфейсом (как это показать),
+- 3D-визуализацией (как это выглядит).
 
-### UI Layer
-- User interface components and views
+Ключевая цель — сделать систему:
+- расширяемой,
+- объяснимой,
+- детерминированной,
+- готовой к будущему e-commerce без переписывания ядра.
 
-### Three.js Layer
-- 3D visualization and rendering
+---
 
-### Data Layer
-- Data persistence and management
-- Catalog, pricing, and preset data
+## Высокоуровневая схема
 
-## Design Patterns
-
-TBD - Add design patterns documentation
